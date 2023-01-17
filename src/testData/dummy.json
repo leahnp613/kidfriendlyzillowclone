@@ -1,0 +1,568 @@
+{
+    "data": {
+      "home_search": {
+        "__typename": "SearchHomeResult",
+        "count": 4,
+        "total": 4,
+        "results": [
+          {
+            "__typename": "SearchHome",
+            "property_id": "9254179601",
+            "listing_id": "2951402576",
+            "plan_id": null,
+            "status": "for_rent",
+            "photo_count": 13,
+            "branding": [
+              {
+                "__typename": "Branding",
+                "photo": null,
+                "name": "RE/MAX Hacienda",
+                "phone": null,
+                "link": null
+              }
+            ],
+            "location": {
+              "__typename": "SearchHomeLocation",
+              "address": {
+                "__typename": "SearchHomeAddress",
+                "city": "Edinburg",
+                "line": "815 N Cross Ln Apt 4",
+                "street_name": "Cross",
+                "street_number": "815",
+                "street_suffix": "Ln",
+                "country": "USA",
+                "postal_code": "78541",
+                "state_code": "TX",
+                "state": "Texas",
+                "coordinate": {
+                  "__typename": "Coordinate",
+                  "lat": 26.31258,
+                  "lon": -98.183693,
+                  "accuracy": null
+                }
+              },
+              "street_view_url": "",
+              "county": {
+                "__typename": "HomeCounty",
+                "fips_code": "48215"
+              }
+            },
+            "open_houses": null,
+            "description": {
+              "__typename": "SearchHomeDescription",
+              "sub_type": "condo",
+              "type": "apartment",
+              "beds": 3,
+              "baths": 3,
+              "lot_sqft": 12402,
+              "sqft": 5096,
+              "beds_max": null,
+              "beds_min": null,
+              "sqft_max": null,
+              "sqft_min": null,
+              "baths_full": 3,
+              "baths_half": null,
+              "baths_min": null,
+              "baths_max": null,
+              "baths_full_calc": 3,
+              "baths_partial_calc": null
+            },
+            "virtual_tours": null,
+            "matterport": false,
+            "advertisers": [
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": "3227326",
+                "name": "Priscilla E. Coronado",
+                "email": "realtorpriscilla@gmail.com",
+                "href": null,
+                "slogan": null,
+                "type": "seller"
+              }
+            ],
+            "flags": {
+              "__typename": "HomeFlags",
+              "is_price_reduced": null,
+              "is_new_construction": null,
+              "is_foreclosure": null,
+              "is_plan": null,
+              "is_new_listing": true,
+              "is_coming_soon": null,
+              "is_contingent": null,
+              "is_pending": null
+            },
+            "source": {
+              "__typename": "MlsSource",
+              "agents": [
+                {
+                  "__typename": "MlsAgent",
+                  "id": "MCTX",
+                  "agent_id": "801066673",
+                  "agent_name": "Priscilla Coronado",
+                  "office_id": "519",
+                  "office_name": null
+                }
+              ],
+              "id": "MCTX",
+              "type": "mls",
+              "spec_id": null,
+              "plan_id": null,
+              "listing_href": null,
+              "listing_id": "396598"
+            },
+            "pet_policy": {
+              "__typename": "HomePetPolicy",
+              "cats": true,
+              "dogs": true
+            },
+            "community": null,
+            "primary_photo": {
+              "__typename": "Photo",
+              "href": "https://ap.rdcpix.com/fc86be8eaa03956b7483dc2b523db9bdl-m2616365123s.jpg"
+            },
+            "href": "https://www.realtor.com/realestateandhomes-detail/815-N-Cross-Ln-Apt-4_Edinburg_TX_78541_M92541-79601",
+            "list_price": 900,
+            "list_price_min": null,
+            "list_price_max": null,
+            "price_reduced_amount": null,
+            "estimate": null,
+            "lead_attributes": {
+              "__typename": "LeadAttributes",
+              "lead_type": "rental_basic_mls",
+              "show_contact_an_agent": true,
+              "opcity_lead_attributes": {
+                "__typename": "OpCityLeadAttributes",
+                "flip_the_market_enabled": false
+              }
+            },
+            "last_sold_date": null,
+            "list_date": "2023-01-13T07:09:39Z",
+            "products": {
+              "__typename": "ProductSummary",
+              "brand_name": "essentials",
+              "products": [
+                "core.agent",
+                "core.broker"
+              ]
+            },
+            "last_sold_price": null
+          },
+          {
+            "__typename": "SearchHome",
+            "property_id": "9117395911",
+            "listing_id": "2930203060",
+            "plan_id": null,
+            "status": "for_rent",
+            "photo_count": 8,
+            "branding": [
+              {
+                "__typename": "Branding",
+                "photo": null,
+                "name": null,
+                "phone": null,
+                "link": null
+              }
+            ],
+            "location": {
+              "__typename": "SearchHomeLocation",
+              "address": {
+                "__typename": "SearchHomeAddress",
+                "city": "Hooks",
+                "line": "3 E Avenue B",
+                "street_name": "Avenue B",
+                "street_number": "3",
+                "street_suffix": null,
+                "country": "USA",
+                "postal_code": "75561",
+                "state_code": "TX",
+                "state": "Texas",
+                "coordinate": {
+                  "__typename": "Coordinate",
+                  "lat": 33.467371,
+                  "lon": -94.28866,
+                  "accuracy": null
+                }
+              },
+              "street_view_url": "",
+              "county": {
+                "__typename": "HomeCounty",
+                "fips_code": "48037"
+              }
+            },
+            "open_houses": null,
+            "description": {
+              "__typename": "SearchHomeDescription",
+              "sub_type": null,
+              "type": "single_family",
+              "beds": 3,
+              "baths": 3,
+              "lot_sqft": null,
+              "sqft": 1950,
+              "beds_max": null,
+              "beds_min": null,
+              "sqft_max": null,
+              "sqft_min": null,
+              "baths_full": 3,
+              "baths_half": null,
+              "baths_min": null,
+              "baths_max": null,
+              "baths_full_calc": 3,
+              "baths_partial_calc": null
+            },
+            "virtual_tours": null,
+            "matterport": false,
+            "advertisers": [
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": null,
+                "name": null,
+                "email": null,
+                "href": null,
+                "slogan": null,
+                "type": "management"
+              },
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": null,
+                "name": null,
+                "email": null,
+                "href": null,
+                "slogan": null,
+                "type": "unit_rental"
+              }
+            ],
+            "flags": {
+              "__typename": "HomeFlags",
+              "is_price_reduced": null,
+              "is_new_construction": null,
+              "is_foreclosure": null,
+              "is_plan": null,
+              "is_new_listing": false,
+              "is_coming_soon": null,
+              "is_contingent": null,
+              "is_pending": null
+            },
+            "source": {
+              "__typename": "MlsSource",
+              "agents": null,
+              "id": "AVAL",
+              "type": "unit_rental",
+              "spec_id": null,
+              "plan_id": null,
+              "listing_href": null,
+              "listing_id": "60134052"
+            },
+            "pet_policy": {
+              "__typename": "HomePetPolicy",
+              "cats": true,
+              "dogs": true
+            },
+            "community": null,
+            "primary_photo": {
+              "__typename": "Photo",
+              "href": "https://ap.rdcpix.com/5585c55a710d79343bbf7cb5032c8808l-m1591793106s.jpg"
+            },
+            "href": "https://www.realtor.com/realestateandhomes-detail/3-E-Avenue-B_Hooks_TX_75561_M91173-95911",
+            "list_price": 795,
+            "list_price_min": null,
+            "list_price_max": null,
+            "price_reduced_amount": null,
+            "estimate": null,
+            "lead_attributes": {
+              "__typename": "LeadAttributes",
+              "lead_type": "rental_basic_unit",
+              "show_contact_an_agent": true,
+              "opcity_lead_attributes": {
+                "__typename": "OpCityLeadAttributes",
+                "flip_the_market_enabled": false
+              }
+            },
+            "last_sold_date": null,
+            "list_date": "2022-06-17T00:03:24Z",
+            "products": null,
+            "last_sold_price": null
+          },
+          {
+            "__typename": "SearchHome",
+            "property_id": "7314171556",
+            "listing_id": "634258687",
+            "plan_id": null,
+            "status": "for_rent",
+            "photo_count": 19,
+            "branding": [
+              {
+                "__typename": "Branding",
+                "photo": null,
+                "name": "Real Estate By Pat Gray",
+                "phone": null,
+                "link": null
+              }
+            ],
+            "location": {
+              "__typename": "SearchHomeLocation",
+              "address": {
+                "__typename": "SearchHomeAddress",
+                "city": "Stephenville",
+                "line": "701 S Lillian St",
+                "street_name": "Lillian",
+                "street_number": "701",
+                "street_suffix": "St",
+                "country": "USA",
+                "postal_code": "76401",
+                "state_code": "TX",
+                "state": "Texas",
+                "coordinate": {
+                  "__typename": "Coordinate",
+                  "lat": 32.208203,
+                  "lon": -98.212477,
+                  "accuracy": null
+                }
+              },
+              "street_view_url": "",
+              "county": {
+                "__typename": "HomeCounty",
+                "fips_code": "48143"
+              }
+            },
+            "open_houses": null,
+            "description": {
+              "__typename": "SearchHomeDescription",
+              "sub_type": "townhouse",
+              "type": "townhomes",
+              "beds": 3,
+              "baths": 3,
+              "lot_sqft": null,
+              "sqft": 1375,
+              "beds_max": null,
+              "beds_min": null,
+              "sqft_max": null,
+              "sqft_min": null,
+              "baths_full": 3,
+              "baths_half": null,
+              "baths_min": null,
+              "baths_max": null,
+              "baths_full_calc": 3,
+              "baths_partial_calc": null
+            },
+            "virtual_tours": [
+              {
+                "__typename": "VirtualTour",
+                "href": "https://www.propertypanorama.com/instaview/ntreis/13865030"
+              }
+            ],
+            "matterport": true,
+            "advertisers": [
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": "556426",
+                "name": "Joleen Gray Skipworth",
+                "email": "joleen@flash.net",
+                "href": null,
+                "slogan": null,
+                "type": "seller"
+              }
+            ],
+            "flags": {
+              "__typename": "HomeFlags",
+              "is_price_reduced": null,
+              "is_new_construction": null,
+              "is_foreclosure": null,
+              "is_plan": null,
+              "is_new_listing": false,
+              "is_coming_soon": null,
+              "is_contingent": null,
+              "is_pending": null
+            },
+            "source": {
+              "__typename": "MlsSource",
+              "agents": [
+                {
+                  "__typename": "MlsAgent",
+                  "id": "NTTX",
+                  "agent_id": "0208925",
+                  "agent_name": "Joleen Skipworth",
+                  "office_id": "GRAY00FW",
+                  "office_name": "Real Estate By Pat Gray"
+                }
+              ],
+              "id": "NTTX",
+              "type": "mls",
+              "spec_id": null,
+              "plan_id": null,
+              "listing_href": null,
+              "listing_id": "13865030"
+            },
+            "pet_policy": {
+              "__typename": "HomePetPolicy",
+              "cats": true,
+              "dogs": true
+            },
+            "community": null,
+            "primary_photo": {
+              "__typename": "Photo",
+              "href": "https://ap.rdcpix.com/f65788b282d1d7f9ffcdbfecd1f5c587l-m3886807908s.jpg"
+            },
+            "href": "https://www.realtor.com/realestateandhomes-detail/701-S-Lillian-St_Stephenville_TX_76401_M73141-71556",
+            "list_price": 695,
+            "list_price_min": null,
+            "list_price_max": null,
+            "price_reduced_amount": null,
+            "estimate": null,
+            "lead_attributes": {
+              "__typename": "LeadAttributes",
+              "lead_type": "rental_basic_mls",
+              "show_contact_an_agent": true,
+              "opcity_lead_attributes": {
+                "__typename": "OpCityLeadAttributes",
+                "flip_the_market_enabled": false
+              }
+            },
+            "last_sold_date": "2016-04-18",
+            "list_date": "2018-06-13T16:48:13Z",
+            "products": {
+              "__typename": "ProductSummary",
+              "brand_name": "essentials",
+              "products": [
+                "core.agent",
+                "core.broker"
+              ]
+            },
+            "last_sold_price": null
+          },
+          {
+            "__typename": "SearchHome",
+            "property_id": "8179882053",
+            "listing_id": "2755679951",
+            "plan_id": null,
+            "status": "for_rent",
+            "photo_count": 14,
+            "branding": [],
+            "location": {
+              "__typename": "SearchHomeLocation",
+              "address": {
+                "__typename": "SearchHomeAddress",
+                "city": "Beaumont",
+                "line": "3985 Sarah St",
+                "street_name": "Sarah",
+                "street_number": "3985",
+                "street_suffix": "St",
+                "country": "USA",
+                "postal_code": "77705",
+                "state_code": "TX",
+                "state": "Texas",
+                "coordinate": {
+                  "__typename": "Coordinate",
+                  "lat": 30.04437,
+                  "lon": -94.12617,
+                  "accuracy": null
+                }
+              },
+              "street_view_url": "",
+              "county": {
+                "__typename": "HomeCounty",
+                "fips_code": "48245"
+              }
+            },
+            "open_houses": null,
+            "description": {
+              "__typename": "SearchHomeDescription",
+              "sub_type": null,
+              "type": "apartment",
+              "beds": null,
+              "baths": null,
+              "lot_sqft": null,
+              "sqft": null,
+              "beds_max": 3,
+              "beds_min": 1,
+              "sqft_max": 1230,
+              "sqft_min": 700,
+              "baths_full": null,
+              "baths_half": null,
+              "baths_min": 1,
+              "baths_max": 3,
+              "baths_full_calc": null,
+              "baths_partial_calc": null
+            },
+            "virtual_tours": null,
+            "matterport": false,
+            "advertisers": [
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": null,
+                "name": null,
+                "email": null,
+                "href": null,
+                "slogan": null,
+                "type": "management"
+              },
+              {
+                "__typename": "HomeAdvertiser",
+                "fulfillment_id": null,
+                "name": null,
+                "email": null,
+                "href": null,
+                "slogan": null,
+                "type": "community"
+              }
+            ],
+            "flags": {
+              "__typename": "HomeFlags",
+              "is_price_reduced": null,
+              "is_new_construction": null,
+              "is_foreclosure": null,
+              "is_plan": null,
+              "is_new_listing": null,
+              "is_coming_soon": null,
+              "is_contingent": null,
+              "is_pending": null
+            },
+            "source": {
+              "__typename": "MlsSource",
+              "agents": null,
+              "id": "ABOD",
+              "type": "community",
+              "spec_id": null,
+              "plan_id": null,
+              "listing_href": null,
+              "listing_id": "3764701"
+            },
+            "pet_policy": {
+              "__typename": "HomePetPolicy",
+              "cats": true,
+              "dogs": true
+            },
+            "community": null,
+            "primary_photo": {
+              "__typename": "Photo",
+              "href": "https://ar.rdcpix.com/7968e1130a1e52cbc599a284a0c7209ec-f3448950271s.jpg"
+            },
+            "href": "https://www.realtor.com/realestateandhomes-detail/3985-Sarah-St_Beaumont_TX_77705_M81798-82053",
+            "list_price": null,
+            "list_price_min": 459,
+            "list_price_max": 986,
+            "price_reduced_amount": null,
+            "estimate": null,
+            "lead_attributes": {
+              "__typename": "LeadAttributes",
+              "lead_type": "rental_basic_community",
+              "show_contact_an_agent": true,
+              "opcity_lead_attributes": {
+                "__typename": "OpCityLeadAttributes",
+                "flip_the_market_enabled": false
+              }
+            },
+            "last_sold_date": null,
+            "list_date": null,
+            "products": {
+              "__typename": "ProductSummary",
+              "brand_name": null,
+              "products": [
+                "basic"
+              ]
+            },
+            "last_sold_price": null
+          }
+        ]
+      }
+    }
+  }

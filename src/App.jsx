@@ -1,10 +1,11 @@
 import { useState } from "react";
+import {searchProperty} from './services/zillowcom'
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  searchProperty()
   return (
     <div className="App">
       <div>

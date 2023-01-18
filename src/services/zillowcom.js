@@ -1,3 +1,5 @@
+import axios from "axios";
+
 const instance = axios.create({
   baseURL: "https://zillow-com1.p.rapidapi.com",
   timeout: 1000,
@@ -8,6 +10,9 @@ const instance = axios.create({
   },
 });
 
-axios.get("/propertyExtendedSearch", {
-  params: { location: "santa monica, ca", home_type: "Houses" },
-});
+export const searchProperty = () =>{
+
+   return axios.get("/propertyExtendedSearch", {
+      params: { location: "santa monica, ca", home_type: "Houses" },
+    }).then( res => console.log(res.data));
+}

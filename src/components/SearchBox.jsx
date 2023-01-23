@@ -1,10 +1,13 @@
 import React from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field, ErrorMessage, useFormik } from 'formik';
 
 
-const SearchBox = () => {
+export const SearchBox = () => {
+     let priceRange = "blue";
+     let zipCode = 2
+     let homeType = "single family house"
     const formik = useFormik({
-        initialValues{ price_range, zip_code, home_type
+        initialValues:{ priceRange, zipCode, homeType
         },
         onSubmit: values => {
             alert(Json.stringify(values, null, 2));
@@ -13,29 +16,29 @@ const SearchBox = () => {
     });
     return(
         <form onSubmit={formik.handleSubmit}>
-            <label htmlFor="price_range">Price Range></label>
-            <label htmlFor="zip_code">Zip Code</label>
-            <label htmlFor="home_type">Home Type</label>
+            <label htmlFor="priceRange">Price Range</label>
+            <label htmlFor="zipCode">Zip Code</label>
+            <label htmlFor="homeType">Home Type</label>
             <input
-            id="price_range"
-            name="price_range"
-            type="price_range"
+            id="priceRange"
+            name="priceRange"
+            type="priceRange"
             onChange={formik.handleChange}
-            value={formik.values.price_range}
+            value={formik.values.priceRange}
             />
              <input
-            id="zip_code"
-            name="zip_code"
-            type="zip_code"
+            id="zipCode"
+            name="zipCode"
+            type="zipCode"
             onChange={formik.handleChange}
-            value={formik.values.zip_code}
+            value={formik.values.zipCode}
             />
               <input
-            id="home_type"
-            name="home_type"
-            type="home_type"
+            id="homeType"
+            name="homeType"
+            type="homeType"
             onChange={formik.handleChange}
-            value={formik.values.home_type}
+            value={formik.values.homeType}
             />
 
             <button type="submit">Submit</button>

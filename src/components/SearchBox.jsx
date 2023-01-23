@@ -2,39 +2,46 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 
-export const SearchBox = () => (
- <div>
-   <Formik
-     initialValues={{ email: '', password: '' }}
-     validate={values => {
-       const errors = {};
-       if (!values.email) { 
-         errors.email = 'Required';
-       } else if (
-         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-       ) {
-         errors.email = 'Invalid email address';
-       }
-       return errors;
-     }}
-     onSubmit={(values, { setSubmitting }) => {
-       setTimeout(() => {
-         alert(JSON.stringify(values, null, 2));
-         setSubmitting(false);
-       }, 400);
-     }}
-   >
-     {({ isSubmitting }) => (
-       <Form>
-         <Field type="email" name="email" />
-         <ErrorMessage name="email" component="div" />
-         <Field type="password" name="password" />
-         <ErrorMessage name="password" component="div" />
-         <button type="submit" disabled={isSubmitting}>
-           Submit
-         </button>
-       </Form>
-     )}
-   </Formik>
- </div>
-);
+const SearchBox = () => {
+    const formik = useFormik({
+        initialValues{ price_range, zip_code, home_type
+        },
+        onSubmit: values => {
+            alert(Json.stringify(values, null, 2));
+        },
+
+    });
+    return(
+        <form onSubmit={formik.handleSubmit}>
+            <label htmlFor="price_range">Price Range></label>
+            <label htmlFor="zip_code">Zip Code</label>
+            <label htmlFor="home_type">Home Type</label>
+            <input
+            id="price_range"
+            name="price_range"
+            type="price_range"
+            onChange={formik.handleChange}
+            value={formik.values.price_range}
+            />
+             <input
+            id="zip_code"
+            name="zip_code"
+            type="zip_code"
+            onChange={formik.handleChange}
+            value={formik.values.zip_code}
+            />
+              <input
+            id="home_type"
+            name="home_type"
+            type="home_type"
+            onChange={formik.handleChange}
+            value={formik.values.home_type}
+            />
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+
+    )
+};

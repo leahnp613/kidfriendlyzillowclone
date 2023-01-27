@@ -4,22 +4,31 @@ Features: looking for rentals & or buying listings based on kid-friendly feature
 
 Kid-Friendly Features:
 
--near a public park
+- near a public park
 
--near a school
+- near a school
 
--has a playset in the backyard
+- has a playset in the backyard
 
--has a fenced in backyard
+- has a fenced in backyard
 
--finished basement?
+- finished basement?
 
 How can I isolate those kid friendly features?
+
+## Tech Stack
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Axios](https://img.shields.io/static/v1?style=for-the-badge&message=Axios&color=5A29E4&logo=Axios&logoColor=FFFFFF&label=)
 
 ## Wireframe
 
 [Figma Wireframes](https://www.figma.com/file/9TUHAZReFNUybeAIQeGg1M/Zillow-Clone?node-id=1%3A10&t=kRGjzM9KeE6wC4LT-1)
 
+## Kanban Board
+[Kanban board](https://www.notion.so/Kanban-board-59a3545624b44b83b2dbdf190945b674)
 
 ## Progress
 
@@ -32,7 +41,7 @@ How can I isolate those kid friendly features?
 | APIs | 1/16/2022 |  |
 |  |  |  |
 
-## What are my components?
+## What are my React components?
 
 1. Filters
     1. Basement
@@ -45,12 +54,11 @@ How can I isolate those kid friendly features?
     2. school district maps
 3. Log In
     1. Use 
-    
-    [How To Add Login Authentication to React Applications | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications)
-    
 
-## Kanban Board
-[Kanban board](https://www.notion.so/Kanban-board-59a3545624b44b83b2dbdf190945b674)
+## Helpful Links
 
-## Figma Wireframes:
-https://www.figma.com/file/9TUHAZReFNUybeAIQeGg1M/Zillow-Clone?node-id=1%3A10&t=q7jctvmtjgY7HWcH-1
+[How To Add Login Authentication to React Applications | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications)
+
+[Zillow API from RapidAPIs](https://rapidapi.com/apimaker/api/zillow-com1)
+
+[Google Maps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
